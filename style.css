@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('/Images/backgound.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+#butterfly{
+    position: absolute;
+    height: 260px;
+    width: 260px;
+    cursor: pointer;
+}
+#container{
+    position: relative;
+}
